@@ -1,0 +1,884 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html class="lowie ie6" lang="zh-cn"><![endif]-->
+<!--[if IE 7 ]><html class="lowie ie7" lang="zh-cn"><![endif]-->
+<!--[if IE 8 ]><html class="lowie ie8" lang="zh-cn"><![endif]-->
+<!--[if IE 9 ]><html class="ie9" lang="zh-cn"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="" lang="zh-cn">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>玄幻小说下载_逐浪小说</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="keywords" content="玄幻,逐浪,文学,原创文学,原创文学平台,小说,zhulang">
+    <meta name="description" content="玄幻小说,玄幻小说,武侠小说,言情小说,网游小说等在线阅读下载。">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.zhulang.com/favicon.ico"/>
+    <link rel="stylesheet" href="http://stc.zhulang.com/style/common.css?v=11661" type="text/css">
+    <link rel="stylesheet" href="http://stc.zhulang.com/style/style.css?v=11661" type="text/css">
+    <script src="http://stc.zhulang.com/js/lib/jquery-1.11.1.min.js"></script>
+<script src="http://stc.zhulang.com/js/lib/require.js"></script>
+<script src="http://stc.zhulang.com/js/reqcfg.js?v=2995"></script>
+<!--c6 headerjs-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="http://stc.zhulang.com/lowie/iefix.css" type="text/css">
+<script src="http://stc.zhulang.com/js/lib/html5shiv.min.js" info="html5shiv"></script>
+<script>
+window.lowie = 1;
+</script>
+<script src="http://stc.zhulang.com/lowie/iefix.js"></script>    
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="nav-group">
+    
+          <div class="top-bar">
+  <div class="main top-wrap">
+    <div class="fl">
+      <div class="top-opt"> <a class="nav-tit" href="http://www.zhulang.com" target="_blank">逐浪小说<b></b></a>
+        <div class="nav-drop">
+          <ul>
+            <li><a href="http://zhulang.com/app/" target="_blank">逐浪手机</a></li>
+            <li><a href="http://www.xxs8.com" target="_blank">新小说吧</a></li>
+          </ul>
+        </div>
+      </div>  
+      <div class="fl top-fns">
+        <a href="javascript:;" class="fl fav-btn">一键收藏</a>
+      </div>
+       </div>
+    <div class="fr">
+      <div class="login-box fl">
+                <div class="before-login">
+          <a href="http://www.zhulang.com/login/index.html">登录</a> <span>|</span> <a href="http://www.zhulang.com/register/index.html">注册</a>
+        </div>
+              </div>
+            <span class="sp">|</span>
+      <div class="fl top-chg"> <a href="http://pay.zhulang.com/pay/index.html" target="_blank">充值</a> </div>
+      <span class="sp">|</span>
+      <div class="top-opt zlang-top-readhistory"
+      data-api=http://www.zhulang.com/ajax/shelf/getReadHistory.html      > 
+        <a class="nav-tit" href="http://www.zhulang.com/user/shelf/history.html">最近阅读<b></b></a>
+        <div class="nav-drop myreader-list"></div>
+        <!-- 最近阅读列表 -->
+      </div>
+    </div>
+  </div>
+  <!-- end of top-wrap--> 
+</div>
+        <div class="top-sch">
+  <div class="main">
+  <style>
+      h1.zl-logo{ background-image: url(https://s.zhulang.com/images/logo-170728.png); }
+  </style>
+    <h1 class="zl-logo logo-trans"><a href="http://www.zhulang.com">逐浪 zhulang.com -</a></h1>
+    <form method="post" action="http://www.zhulang.com/search/index.html" class="sch-form">
+      <div class="sch-bdr">
+            <input type="text" name="k" value="" placeholder="请输入您喜欢的小说名称" autocomplete="off" maxlength="50">
+            <span class="sp"></span>
+            <button type="submit" title="搜索">&nbsp;</button>
+        </div>
+        <p class="sch-hot-container"><a  href="http://www.zhulang.com/383656/" target="_blank">万能兵王</a>
+	 <a  href="http://www.zhulang.com/407127/" target="_blank">终极狼魂</a>
+	 <a  href="http://www.zhulang.com/393633/" target="_blank">绝世符神</a>
+	 <a  href="http://www.zhulang.com/407124/" target="_blank">一术镇天</a>
+	 <a  href="http://www.zhulang.com/399562/" target="_blank">都市最强战医</a></p>
+    </form>
+    <div class="top-push fr top-global-ad"></div>
+    </div>
+</div>
+    <!--end of top sch-->
+    <div class="global-nav" id="global-nav">
+      <div class="main">
+          <div class="g-nav-main clearfix">
+              <ul>
+                  <li ><a href="http://www.zhulang.com" target="_blank">首页</a></li>
+                                    <li class="cur"><a href="http://www.zhulang.com/shuku/index.html" target="_blank">书库</a></li>
+                  <!--li ><a href="http://www.zhulang.com/news/index.html" target="_blank">精品导读</a></li-->
+                  <li ><a href="http://www.zhulang.com/rank/index.html" target="_blank">排行榜</a></li>
+                  <li ><a href="http://www.zhulang.com/rank/mflower.html" target="_blank">鲜花榜</a></li>
+                  <li ><a href="http://www.zhulang.com/shuku/index/flag/2/full/1.html" target="_blank">全本</a></li>
+
+                                    
+                  <li ><a href="http://www.zhulang.com/fl/fltx.html?v=2017" target="_blank">福利</a></li>
+                  
+                  <li ><a href="http://pay.zhulang.com/pay/index.html" target="_blank">充值</a></li>                                        
+              </ul>
+              <div class="g-nav-fn">
+                  <a href="http://www.zhulang.com/user/center.html" target="_blank"><i class="mbr"></i>会员专区</a>
+                  <a href="https://writer.zhulang.com/index/index.html" target="_blank"><i class="ath"></i>作家专区</a>
+                  <a href="http://www.zhulang.com/app/" target="_blank"><i class="app"></i>手机客户端</a>
+              </div>
+            </div>
+                        <div class="g-nav-sub">
+                <div class="sub-links">
+                  <p>
+                  频道： 
+                   <span>
+					<a 					style="color:#f60;"
+					 href="http://www.zhulang.com/category/index/class/02.html">玄幻</a>
+					<a  href="http://www.zhulang.com/category/index/class/05.html">都市</a>
+					<a  href="http://www.zhulang.com/category/index/class/01.html">武侠</a>
+					<!--<a  href="http://www.zhulang.com/category/index/class/03.html">同人</a>-->
+					<a  href="http://www.zhulang.com/category/index/class/04.html">历史</a>
+					<a  href="http://www.zhulang.com/category/index/class/07.html">游戏</a>
+					<a  href="http://www.zhulang.com/category/index/class/06.html">科幻</a>
+					<a  href="http://www.zhulang.com/category/index/class/09.html">竞技</a>
+					<a  href="http://www.zhulang.com/category/index/class/08.html">灵异</a>
+					<a  href="http://www.zhulang.com/category/index/class/10.html">奇幻</a>
+					<a  href="http://www.zhulang.com/category/index/class/11.html">仙侠</a>
+				<!--
+					<a  href="http://www.zhulang.com/category/index/class/12.html">现实</a>
+				-->
+					<a  href="http://www.zhulang.com/category/index/class/13.html">军事</a>
+					<a  href="http://www.zhulang.com/category/index/class/14.html">二次元</a>
+				<!--
+					<a  href="http://www.zhulang.com/category/index/class/15.html">短篇</a>
+				-->
+                  </span>
+                  </p>
+                </div>
+                <!-- <div class="sub-nav-push">
+                  <a href="#nogo" class="bluelink">彩票</a>
+                    <a href="#nogo" class="bluelink">官场大赛</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!--end of global nav-->
+</div>
+
+
+
+<div class="main">
+    <div class="mian-row clearfix">
+    	<div class="w-222 fl">
+            <div class="bdrbox recommend">
+            	<div class="bdrbox-tit" data-tab="li">
+                    <ul class="bdrbox-tab">
+                    <li class="cur"><a href="javascript:;">本类热门推荐</a><i></i></li>
+                    
+                    </ul>
+                </div><!--end bdrbox-tit-->
+                <div class="recommend-list" data-con="ul">
+                	<ul>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/409741/" target="_blank">九阳至尊</a></li>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/455258/" target="_blank">叶落林间</a></li>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/443579/" target="_blank">噬血玄帝</a></li>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/434755/" target="_blank">后山有座青牛楼</a></li>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/460142/" target="_blank">最强天尊系统</a></li>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/459195/" target="_blank">十世轮回之寻狐记</a></li>
+                                            </ul>
+                    
+                      
+                </div>
+               
+                <!---->
+                
+            </div><!--end bdrbox-->
+        </div><!--end w-222-->
+        <div class="w-526 fl">
+        	<div class="bdrbox channel-focus" id="channel-focus">
+                            	<dl>
+            	<dt>
+                <a href="http://www.zhulang.com/426391/" target="_blank"><img class="f-img" src="http://stc.zhulang.com/images/s.gif" data-src="http://images.zhulang.com/book_cover/image/42/63/426391_x160.jpg"/></a>
+                </dt>
+                <dd>
+                <ul>
+                                                                <li                             class="cur"
+                        >
+                            <h3 data-pic="http://images.zhulang.com/book_cover/image/42/63/426391.jpg">
+                                <a href="http://www.zhulang.com/426391/" target="_blank">永恒帝朝</a> 
+                                <span>作者：<a href="http://www.zhulang.com/author/index/aid/35233577.html" target="_blank">六卿</a></span>
+                                <i></i>
+                            </h3>
+                            <p>
+                                一个追求永恒的帝朝，一部与天道不停战斗的故事。帝的转世杨轩，从世俗的帝王一步步集合昔日部下，吸收新鲜血液，汇集万灵力量，提炼不朽物...                                <span>
+                                <a href="http://www.zhulang.com/426391/" class="bluelink" target="_blank">[阅读]</a>
+                                </span>
+                            </p>
+                        </li>
+                                                                    <li >
+                            <h3 data-pic="http://images.zhulang.com/book_cover/image/42/93/429392.jpg">
+                                <a href="http://www.zhulang.com/429392/" target="_blank">仙袍</a> 
+                                <span>作者：<a href="http://www.zhulang.com/author/index/aid/27420528.html" target="_blank">夏云溪</a></span>
+                                <i></i>
+                            </h3>
+                            <p>
+                                弹指间日月寂灭，生死外岁月轮回，天地容山河，乾坤纳虚无！
+游尽人间多少客，赤血云霄有少年                                <span>
+                                <a href="http://www.zhulang.com/429392/" class="bluelink" target="_blank">[阅读]</a>
+                                </span>
+                            </p>
+                        </li>
+                                                                    <li >
+                            <h3 data-pic="http://images.zhulang.com/book_cover/image/45/38/453878.jpg">
+                                <a href="http://www.zhulang.com/453878/" target="_blank">星魂传说</a> 
+                                <span>作者：<a href="http://www.zhulang.com/author/index/aid/40133518.html" target="_blank">辰汐</a></span>
+                                <i></i>
+                            </h3>
+                            <p>
+                                九星大陆武风盛行，修炼者以丹田为基，天地灵气为材铸星魂之塔，传说中：“星魂之塔铸成九层圆满之数后天道会降下雷劫，渡劫成功者谓之为神...                                <span>
+                                <a href="http://www.zhulang.com/453878/" class="bluelink" target="_blank">[阅读]</a>
+                                </span>
+                            </p>
+                        </li>
+                                                                    <li >
+                            <h3 data-pic="http://images.zhulang.com/book_cover/image/45/91/459162.jpg">
+                                <a href="http://www.zhulang.com/459162/" target="_blank">重生之刀破苍穹</a> 
+                                <span>作者：<a href="http://www.zhulang.com/author/index/aid/41810235.html" target="_blank">宇宏</a></span>
+                                <i></i>
+                            </h3>
+                            <p>
+                                位面碰撞，强族林立，秦啸天逆天重生，一个万古棋局正在慢慢揭开面纱，是甘愿作为棋子碌碌无为，还是逆天改命冲破牢笼？                                <span>
+                                <a href="http://www.zhulang.com/459162/" class="bluelink" target="_blank">[阅读]</a>
+                                </span>
+                            </p>
+                        </li>
+                                                                    <li >
+                            <h3 data-pic="http://images.zhulang.com/book_cover/image/45/52/455205.jpg">
+                                <a href="http://www.zhulang.com/455205/" target="_blank">逍遥游</a> 
+                                <span>作者：<a href="http://www.zhulang.com/author/index/aid/29999305.html" target="_blank">羽中小虫</a></span>
+                                <i></i>
+                            </h3>
+                            <p>
+                                故事讲述在森林、沼泽、荒漠、戈壁、异潭、幽谷、毒虫、异兽形成的洪荒中，一位在蛇腹中、沼泽内、神剑下、陷阱里挣扎出来的洪荒少年，狙杀...                                <span>
+                                <a href="http://www.zhulang.com/455205/" class="bluelink" target="_blank">[阅读]</a>
+                                </span>
+                            </p>
+                        </li>
+                                                            </ul>
+                </dd>
+                </dl>
+            </div><!--end channel-focus-->
+        </div><!--end w-526-->
+        <div class="w-222 fr">
+        	<div class="bdrbox recommend">
+            	<div class="bdrbox-tit">
+                    <h2>玄幻新书推荐</h2>
+                </div><!--end bdrbox-tit-->
+                <div class="recommend-list">
+                	<ul>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/453199/" target="_blank">灵域至尊</a></li>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/457961/" target="_blank">我的系统是天道</a></li>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/427357/" target="_blank">葬魂泪</a></li>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/457873/" target="_blank">逆补苍天</a></li>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/461383/" target="_blank">绝世杀神</a></li>
+                                                    <li><a href="http://www.zhulang.com/category/index/class/02.html" target="_blank">[玄幻]</a>  <a href="http://www.zhulang.com/445883/" target="_blank">步步寻神</a></li>
+                                            </ul>
+                </div><!---->
+            </div><!--end bdrbox-->
+        </div><!--end col-746-->
+    </div>
+    <!--end of mian-row-->
+    <div class="adbox">
+    			<a href="http://www.zhulang.com/fl/fltx.html?v=2017" target="_blank" title="作家福利"><img class="f-img" src="http://stc.zhulang.com/images/s.gif" data-src="https://i.zhulang.com/admin/bang/2017-08-21/599a9ea31fe4d.jpg" width="991" height="63" alt="作家福利"/></a>
+		    </div><!--end adbox-->
+    <div class="mian-row">
+    	<div class="w-758 fl"> 
+        	<div class="recommend2">
+            	<div class="bdrbox-tit">
+                    <h2>玄幻新书精选</h2>
+                </div><!--end bdrbox-tit-->
+                <ul>
+                                        <li>
+                        <dl>
+                            <dt><a href="http://www.zhulang.com/449767/" target="_blank"><img class="f-img" src="http://stc.zhulang.com/images/s.gif" data-src="http://images.zhulang.com/book_cover/image/44/97/449767_x160.jpg"/></a></dt>
+                            <dd>
+                                <strong><a href="http://www.zhulang.com/449767/" target="_blank">囚龙葬天</a></strong>
+                                <p>作者：<a href="http://www.zhulang.com/author/index/aid/39790475.html" target="_blank">九月涩茶</a></p>
+                                <p>生为大夏之人，死为大夏之魂，囚龙柱可囚得了龙，却...</p>
+                                <span><a href="http://www.zhulang.com/449767/" class="bluelink" target="_blank">[ 阅读 ]</a></span>
+                            </dd>
+                        </dl>
+                    </li> 
+                                        <li>
+                        <dl>
+                            <dt><a href="http://www.zhulang.com/460574/" target="_blank"><img class="f-img" src="http://stc.zhulang.com/images/s.gif" data-src="http://images.zhulang.com/book_cover/image/46/5/460574_x160.jpg"/></a></dt>
+                            <dd>
+                                <strong><a href="http://www.zhulang.com/460574/" target="_blank">《一剑封天》</a></strong>
+                                <p>作者：<a href="http://www.zhulang.com/author/index/aid/42173130.html" target="_blank">崴君</a></p>
+                                <p>悲催少年莫凡，深夜回家被人拦路抢劫。把身上钱财全...</p>
+                                <span><a href="http://www.zhulang.com/460574/" class="bluelink" target="_blank">[ 阅读 ]</a></span>
+                            </dd>
+                        </dl>
+                    </li> 
+                                        <li>
+                        <dl>
+                            <dt><a href="http://www.zhulang.com/459348/" target="_blank"><img class="f-img" src="http://stc.zhulang.com/images/s.gif" data-src="http://images.zhulang.com/book_cover/image/45/93/459348_x160.jpg"/></a></dt>
+                            <dd>
+                                <strong><a href="http://www.zhulang.com/459348/" target="_blank">九天星帝</a></strong>
+                                <p>作者：<a href="http://www.zhulang.com/author/index/aid/41885956.html" target="_blank">一世繁华</a></p>
+                                <p>九天大陆，圣灵之力。主宰九天，俯瞰风景。转世少年...</p>
+                                <span><a href="http://www.zhulang.com/459348/" class="bluelink" target="_blank">[ 阅读 ]</a></span>
+                            </dd>
+                        </dl>
+                    </li> 
+                                        <li>
+                        <dl>
+                            <dt><a href="http://www.zhulang.com/461276/" target="_blank"><img class="f-img" src="http://stc.zhulang.com/images/s.gif" data-src="http://images.zhulang.com/book_cover/image/46/12/461276_x160.jpg"/></a></dt>
+                            <dd>
+                                <strong><a href="http://www.zhulang.com/461276/" target="_blank">英雄联盟之弈神战纪</a></strong>
+                                <p>作者：<a href="http://www.zhulang.com/author/index/aid/40621353.html" target="_blank">零零九</a></p>
+                                <p>身为西亚帝国贵族勋贵的文辰，却收到了帝王的放逐圣...</p>
+                                <span><a href="http://www.zhulang.com/461276/" class="bluelink" target="_blank">[ 阅读 ]</a></span>
+                            </dd>
+                        </dl>
+                    </li> 
+                                        <li>
+                        <dl>
+                            <dt><a href="http://www.zhulang.com/438717/" target="_blank"><img class="f-img" src="http://stc.zhulang.com/images/s.gif" data-src="http://images.zhulang.com/book_cover/image/43/87/438717_x160.jpg"/></a></dt>
+                            <dd>
+                                <strong><a href="http://www.zhulang.com/438717/" target="_blank">极品皇帝系统</a></strong>
+                                <p>作者：<a href="http://www.zhulang.com/author/index/aid/37422739.html" target="_blank">南笙温</a></p>
+                                <p>张宇穿越过来当皇帝，拥有无敌武将召唤系统，张宇只...</p>
+                                <span><a href="http://www.zhulang.com/438717/" class="bluelink" target="_blank">[ 阅读 ]</a></span>
+                            </dd>
+                        </dl>
+                    </li> 
+                                        <li>
+                        <dl>
+                            <dt><a href="http://www.zhulang.com/445810/" target="_blank"><img class="f-img" src="http://stc.zhulang.com/images/s.gif" data-src="http://images.zhulang.com/book_cover/image/44/58/445810_x160.jpg"/></a></dt>
+                            <dd>
+                                <strong><a href="http://www.zhulang.com/445810/" target="_blank">魔修龙使</a></strong>
+                                <p>作者：<a href="http://www.zhulang.com/author/index/aid/39055187.html" target="_blank">达芬奇的鸡蛋</a></p>
+                                <p>古老帝国的落幕，上古诸神的黄昏，当这媲美诸神的力...</p>
+                                <span><a href="http://www.zhulang.com/445810/" class="bluelink" target="_blank">[ 阅读 ]</a></span>
+                            </dd>
+                        </dl>
+                    </li> 
+                                    </ul>
+            </div><!--end recommend-->
+           
+            <div class="bdrbox ranking-list2">
+            	<div class="bdrbox-tit">
+                    <ul class="bdrbox-tab">
+                    <li                         class="cur"
+                    ><a href="http://www.zhulang.com/category/index/order/1/class/02.html">全部</a><i></i></li>
+                    <li ><a href="http://www.zhulang.com/category/index/order/2/class/02.html">最新公共章节更新</a><i></i></li>
+                    <li ><a href="http://www.zhulang.com/category/index/order/3/class/02.html">最新vip章节更新</a><i></i></li>
+                    </ul>
+                </div><!--end bdrbox-tit-->
+                <div class="ranking-con">
+                                        <table width="100%" border="0" cellpadding="0" class="table-odd">
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/410649/" target="_blank">灭世神修</a> <span class="gray"><a href="http://book.zhulang.com/410649/524942.html" target="_blank">第0345章  七幻青灵涎！</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/31661264.html" class="bluelink" target="_blank">钎尘</a></td>
+                            <td>2017-11-10 17:07</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/409517/" target="_blank">不败灵主</a> <span class="gray"><a href="http://book.zhulang.com/409517/612473.html" target="_blank">第四百七十二章 铸灵台</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/22456049.html" class="bluelink" target="_blank">长庭浩宇</a></td>
+                            <td>2017-11-10 17:07</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/424120/" target="_blank">至尊神魂</a> <span class="gray"><a href="http://book.zhulang.com/424120/401545.html" target="_blank">第四百二十七章 准备破阵</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/23347280.html" class="bluelink" target="_blank">月亮之上</a></td>
+                            <td>2017-11-10 17:05</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/461672/" target="_blank">圣陵</a> <span class="gray"><a href="http://book.zhulang.com/461672/97223.html" target="_blank">第十七章 老头泰申</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/42385122.html" class="bluelink" target="_blank">九笔杆</a></td>
+                            <td>2017-11-10 17:05</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/384503/" target="_blank">完美玄帝</a> <span class="gray"><a href="http://book.zhulang.com/384503/511513.html" target="_blank">第八百一十一章    认可</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/23066782.html" class="bluelink" target="_blank">苍穹少年</a></td>
+                            <td>2017-11-10 17:05</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/326434/" target="_blank">风舞苍穹</a> <span class="gray"><a href="http://book.zhulang.com/326434/913744.html" target="_blank">第一千二百一十九章 观佛台（中）</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/22074179.html" class="bluelink" target="_blank">倚槛听风</a></td>
+                            <td>2017-11-10 17:04</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/458471/" target="_blank">吞灵变</a> <span class="gray"><a href="http://book.zhulang.com/458471/97219.html" target="_blank">第六十章   琉璃尊</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/27410021.html" class="bluelink" target="_blank">梦轮回第一季</a></td>
+                            <td>2017-11-10 17:03</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/340267/" target="_blank">鸿途神王</a> <span class="gray"><a href="http://book.zhulang.com/340267/802861.html" target="_blank">第0158章：魔帝之女？</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/15197189.html" class="bluelink" target="_blank">不漏田鸡子</a></td>
+                            <td>2017-11-10 17:03</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/427143/" target="_blank">绝世斗神</a> <span class="gray"><a href="http://book.zhulang.com/427143/401735.html" target="_blank">二百三十章  迁徙</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/22437973.html" class="bluelink" target="_blank">仙门囧少</a></td>
+                            <td>2017-11-10 17:00</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/462786/" target="_blank">仙岛传说之群灵初醒</a> <span class="gray"><a href="http://book.zhulang.com/462786/97212.html" target="_blank">第二十六章 八极封天神阵</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/42965819.html" class="bluelink" target="_blank">风中青叶</a></td>
+                            <td>2017-11-10 17:00</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/457367/" target="_blank">恒火圣界</a> <span class="gray"><a href="http://book.zhulang.com/457367/96552.html" target="_blank">第五十章   战南山五狼！</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/41332752.html" class="bluelink" target="_blank">唯一单色调</a></td>
+                            <td>2017-11-10 17:00</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/444085/" target="_blank">星空剑神传说</a> <span class="gray"><a href="http://book.zhulang.com/444085/399673.html" target="_blank">第一百二十四章 陆茹失踪？</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/38716116.html" class="bluelink" target="_blank">神轩帝</a></td>
+                            <td>2017-11-10 17:00</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/431141/" target="_blank">梅贾的窃魂卷</a> <span class="gray"><a href="http://book.zhulang.com/431141/396937.html" target="_blank">第一百零三章娑娜</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/35954190.html" class="bluelink" target="_blank">叶家少公子</a></td>
+                            <td>2017-11-10 17:00</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/410253/" target="_blank">九命锁魂灯</a> <span class="gray"><a href="http://book.zhulang.com/410253/612226.html" target="_blank">第四百八十四章、长生洞</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/22374389.html" class="bluelink" target="_blank">淡起风云</a></td>
+                            <td>2017-11-10 17:00</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/409703/" target="_blank">雷道罚天</a> <span class="gray"><a href="http://book.zhulang.com/409703/611202.html" target="_blank">第379章  发难（4）</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/30717708.html" class="bluelink" target="_blank">准提也是佛祖</a></td>
+                            <td>2017-11-10 17:00</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/389781/" target="_blank">龙枪传说</a> <span class="gray"><a href="http://book.zhulang.com/389781/511510.html" target="_blank">第七百六十二章挥师北上</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/22149108.html" class="bluelink" target="_blank">花间惆怅客</a></td>
+                            <td>2017-11-10 16:59</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/461573/" target="_blank">星魂武神</a> <span class="gray"><a href="http://book.zhulang.com/461573/96394.html" target="_blank">第22章星猎者小队</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/42513895.html" class="bluelink" target="_blank">顺应天命</a></td>
+                            <td>2017-11-10 16:58</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/407124/" target="_blank">一术镇天</a> <span class="gray"><a href="http://book.zhulang.com/407124/612467.html" target="_blank">第674章  你说你要对付我是吗？</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/5183111.html" class="bluelink" target="_blank">五月初八</a></td>
+                            <td>2017-11-10 16:54</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/449717/" target="_blank">应道</a> <span class="gray"><a href="http://book.zhulang.com/449717/401733.html" target="_blank">第一百二十五章  相会</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/36821416.html" class="bluelink" target="_blank">浅烟</a></td>
+                            <td>2017-11-10 16:54</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/414847/" target="_blank">斗天逆界</a> <span class="gray"><a href="http://book.zhulang.com/414847/612465.html" target="_blank">第七十五章     浩天宗少主</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/32472101.html" class="bluelink" target="_blank">紫陌微忆</a></td>
+                            <td>2017-11-10 16:52</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/397975/" target="_blank">龙裔领主</a> <span class="gray"><a href="http://book.zhulang.com/397975/612463.html" target="_blank">第三百五十六章 布鲁克，危机？</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/26127063.html" class="bluelink" target="_blank">缘之木</a></td>
+                            <td>2017-11-10 16:51</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/463567/" target="_blank">灵寂</a> <span class="gray"><a href="http://book.zhulang.com/463567/97196.html" target="_blank">第四章  紫月灵狐</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/15193950.html" class="bluelink" target="_blank">逍遥夜雨</a></td>
+                            <td>2017-11-10 16:50</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/463180/" target="_blank">淰逍遥</a> <span class="gray"><a href="http://book.zhulang.com/463180/97195.html" target="_blank">第二章   混沌之体</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/43205548.html" class="bluelink" target="_blank">暗夜之秋</a></td>
+                            <td>2017-11-10 16:49</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/460627/" target="_blank">山海界录</a> <span class="gray"><a href="http://book.zhulang.com/460627/97190.html" target="_blank">第三十七章 虎象之行</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/42187431.html" class="bluelink" target="_blank">铭实</a></td>
+                            <td>2017-11-10 16:46</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/412582/" target="_blank">天命武神</a> <span class="gray"><a href="http://book.zhulang.com/412582/612460.html" target="_blank">第八百四十六章 遭受重创的黑熊（三更）</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/22299467.html" class="bluelink" target="_blank">烟云雨起</a></td>
+                            <td>2017-11-10 16:41</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/455188/" target="_blank">神武圣魂</a> <span class="gray"><a href="http://book.zhulang.com/455188/96929.html" target="_blank">第一百零八章战武皇（一更）</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/39883824.html" class="bluelink" target="_blank">木暖晴空</a></td>
+                            <td>2017-11-10 16:40</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/390780/" target="_blank">一世帝尊</a> <span class="gray"><a href="http://book.zhulang.com/390780/612459.html" target="_blank">第八百八十九章  坐镇天问城的灵台</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/15540226.html" class="bluelink" target="_blank">光明草</a></td>
+                            <td>2017-11-10 16:40</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/414653/" target="_blank">霸道武尊</a> <span class="gray"><a href="http://book.zhulang.com/414653/612458.html" target="_blank">148、被抢夺</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/14992165.html" class="bluelink" target="_blank">暗月浮白</a></td>
+                            <td>2017-11-10 16:40</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/463022/" target="_blank">炎神魔帝</a> <span class="gray"><a href="http://book.zhulang.com/463022/97178.html" target="_blank">第十一章 猎杀魂兽</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/41387807.html" class="bluelink" target="_blank">夜魔兽</a></td>
+                            <td>2017-11-10 16:38</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/407442/" target="_blank">武焚苍穹</a> <span class="gray"><a href="http://book.zhulang.com/407442/608238.html" target="_blank">第一百六十二章   重返凌家</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/23461042.html" class="bluelink" target="_blank">枫雨痕</a></td>
+                            <td>2017-11-10 16:38</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/461743/" target="_blank">亡侯僵相</a> <span class="gray"><a href="http://book.zhulang.com/461743/97173.html" target="_blank">第十一章  山雨欲来</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/42557996.html" class="bluelink" target="_blank">南游云梦</a></td>
+                            <td>2017-11-10 16:32</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/462072/" target="_blank">魂符药师</a> <span class="gray"><a href="http://book.zhulang.com/462072/97171.html" target="_blank">第二十一章：再次提升</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/22931143.html" class="bluelink" target="_blank">小葱拌大酱</a></td>
+                            <td>2017-11-10 16:30</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/455205/" target="_blank">逍遥游</a> <span class="gray"><a href="http://book.zhulang.com/455205/71348.html" target="_blank">七  账内谈话</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/29999305.html" class="bluelink" target="_blank">羽中小虫</a></td>
+                            <td>2017-11-10 16:22</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/406477/" target="_blank">升级兑换系统</a> <span class="gray"><a href="http://book.zhulang.com/406477/612442.html" target="_blank">第0819章    心痛的阑珊</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/23554512.html" class="bluelink" target="_blank">小疾风</a></td>
+                            <td>2017-11-10 16:19</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/455563/" target="_blank">逆天剑臣</a> <span class="gray"><a href="http://book.zhulang.com/455563/97143.html" target="_blank">一百四十五章 恢复记忆</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/39938831.html" class="bluelink" target="_blank">剑臣子</a></td>
+                            <td>2017-11-10 16:18</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/447498/" target="_blank">天下无仙</a> <span class="gray"><a href="http://book.zhulang.com/447498/401708.html" target="_blank">第145章 狗咬狗一嘴毛</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/37271719.html" class="bluelink" target="_blank">叶非狐</a></td>
+                            <td>2017-11-10 16:15</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/410274/" target="_blank">狼啸天下</a> <span class="gray"><a href="http://book.zhulang.com/410274/612440.html" target="_blank">第二百五十三章 齐悦？【求收藏，求打赏】</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/13977624.html" class="bluelink" target="_blank">冷岳颜</a></td>
+                            <td>2017-11-10 16:14</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/417922/" target="_blank">巅峰武神</a> <span class="gray"><a href="http://book.zhulang.com/417922/610956.html" target="_blank">第326章 破例</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/33167312.html" class="bluelink" target="_blank">刀剑无情</a></td>
+                            <td>2017-11-10 16:10</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/463676/" target="_blank">吾修大自在</a> <span class="gray"><a href="http://book.zhulang.com/463676/97112.html" target="_blank">第一章  五彩之石</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/43354999.html" class="bluelink" target="_blank">魔王的喜剧</a></td>
+                            <td>2017-11-10 16:07</td>
+                        </tr>    
+                                                                        <tr> 
+                            <td>
+                                <div class="textl">
+                                    <a href="http://www.zhulang.com/463179/" target="_blank">帝镇苍生</a> <span class="gray"><a href="http://book.zhulang.com/463179/97104.html" target="_blank">第5章  木灵体与修行</a></span>
+                                </div>
+                            </td>
+                            <td><a href="http://www.zhulang.com/author/index/aid/43204317.html" class="bluelink" target="_blank">白衣修士</a></td>
+                            <td>2017-11-10 16:05</td>
+                        </tr>    
+                                            </table>
+                                                            
+                </div><!--end ranking-con-->
+            </div><!--end boxbdr-->
+        </div><!--end w-758-->
+        <div class="w-222 fr">
+        	<div class="bdrbox recommend">
+            	<div class="bdrbox-tit">
+                    <h2>玄幻点击榜</h2>
+                    <ul class="bdrbox-tab fr">
+                    <li class="cur" data-api="http://www.zhulang.com/ajax/rank/visit/class/02/type/1.html"><a href="javascript:;">周</a><i></i></li>
+                    <li data-api="http://www.zhulang.com/ajax/rank/visit/class/02/type/2.html"><a href="javascript:;">月</a><i></i></li>
+                    <li data-api="http://www.zhulang.com/ajax/rank/visit/class/02/type/3.html"><a href="javascript:;">总</a><i></i></li>
+                    </ul>
+                </div><!--end bdrbox-tit-->
+                <div class="recommend-list" data-con="div.cm-con">
+                	<div class="cm-con">
+                                                <ul>
+                                                    <li><span class="red">3916475</span><a href="http://www.zhulang.com/224130/" target="_blank">绝世武神</a></li>
+                                                    <li><span class="red">2917227</span><a href="http://www.zhulang.com/292926/" target="_blank">武神天下</a></li>
+                                                    <li><span class="red">1553218</span><a href="http://www.zhulang.com/189843/" target="_blank">异世灵武天下</a></li>
+                                                    <li><span class="red">1290908</span><a href="http://www.zhulang.com/318880/" target="_blank">丹武至尊</a></li>
+                                                    <li><span class="red">984533</span><a href="http://www.zhulang.com/405602/" target="_blank">狂暴杀神</a></li>
+                                                    <li><span class="red">862519</span><a href="http://www.zhulang.com/344033/" target="_blank">绝世神通</a></li>
+                                                    <li><span class="red">685391</span><a href="http://www.zhulang.com/130587/" target="_blank">唐寅在异界</a></li>
+                                                    <li><span class="red">394508</span><a href="http://www.zhulang.com/263736/" target="_blank">武神风暴</a></li>
+                                                </ul>
+                        <div class="recommend-btn">
+                            <a href="http://www.zhulang.com/rank/visit/class/02/type/1.html" class="btn btn-reward" target="_blank">查看更多</a>
+                        </div>
+                                            </div>
+                    
+                    <div class="cm-con" style="display:none">
+                    	<ul>loading</ul>
+                        <div class="recommend-btn">
+                        	<a href="http://www.zhulang.com/rank/visit/class/02/type/2.html" class="btn btn-reward" target="_blank">查看更多</a>
+                        </div>
+                    </div>
+                    <div class="cm-con"  style="display:none">
+                    	<ul>loading</ul>
+                        <div class="recommend-btn">
+                        	<a href="http://www.zhulang.com/rank/visit/class/02/type/3.html" class="btn btn-reward" target="_blank">查看更多</a>
+                        </div>
+                    </div>
+
+                    <!--end recommend-btn-->
+                </div><!--end ecommend-list-->
+            </div><!--end bdrbox-->
+            
+            
+            <div class="bdrbox recommend">
+            	<div class="bdrbox-tit" data-tab="li">
+                    <h2>玄幻鲜花榜</h2>
+                    <ul class="bdrbox-tab fr">
+                                            <li class="cur" data-api="http://www.zhulang.com/ajax/rank/flower/class/02/type/2.html"><a href="javascript:;">月</a><i></i></li>
+                    </ul>
+                </div><!--end bdrbox-tit-->
+                <div class="recommend-list" data-con="div.cm-con">
+                	<div class="cm-con">
+                	                        <ul>
+                                                    <li><span class="red">435</span><a href="http://www.zhulang.com/342505/" target="_blank">武道狂徒</a></li>
+                                                    <li><span class="red">197</span><a href="http://www.zhulang.com/437074/" target="_blank">龙魂战尊</a></li>
+                                                    <li><span class="red">180</span><a href="http://www.zhulang.com/393057/" target="_blank">凌天战神</a></li>
+                                                    <li><span class="red">159</span><a href="http://www.zhulang.com/344033/" target="_blank">绝世神通</a></li>
+                                                    <li><span class="red">141</span><a href="http://www.zhulang.com/393633/" target="_blank">绝世符神</a></li>
+                                                    <li><span class="red">140</span><a href="http://www.zhulang.com/375388/" target="_blank">无敌血脉</a></li>
+                                                    <li><span class="red">133</span><a href="http://www.zhulang.com/450296/" target="_blank">元尊</a></li>
+                                                    <li><span class="red">117</span><a href="http://www.zhulang.com/391371/" target="_blank">混沌初始</a></li>
+                                                </ul>
+                        <div class="recommend-btn">
+                            <a href="http://www.zhulang.com/rank/flower/class/02/type/1.html" class="btn btn-reward" target="_blank">查看更多</a>
+                        </div>
+                                        </div>
+                    
+                    <div class="cm-con" style="display:none">
+                    	<ul>loading</ul>
+                        <div class="recommend-btn">
+                        	<a href="http://www.zhulang.com/rank/flower/class/02/type/2.html" class="btn btn-reward" target="_blank">查看更多</a>
+                        </div>
+                    </div>
+                    <div class="cm-con"  style="display:none">
+                	   <ul>loading</ul>
+                        <div class="recommend-btn">
+                        	<a href="http://www.zhulang.com/rank/flower/class/02/type/3.html" class="btn btn-reward" target="_blank">查看更多</a>
+                        </div>
+                    </div>
+                    <!--end recommend-btn-->
+                </div><!--end ecommend-list-->
+            </div><!--end bdrbox-->
+            
+            
+            <div class="bdrbox recommend">
+            	<div class="bdrbox-tit" data-tab="li">
+                    <h2>玄幻打赏榜</h2>
+                    <ul class="bdrbox-tab fr">
+                        <li class="cur" data-api="http://www.zhulang.com/ajax/rank/dashang/class/02/type/1.html"><a href="javascript:;">周</a><i></i></li>
+                        <li data-api="http://www.zhulang.com/ajax/rank/dashang/class/02/type/2.html"><a href="javascript:;">月</a><i></i></li>
+                        <li data-api="http://www.zhulang.com/ajax/rank/dashang/class/02/type/3.html"><a href="javascript:;">总</a><i></i></li>
+                    </ul>
+                </div><!--end bdrbox-tit-->
+                <div class="recommend-list" data-con="div.cm-con">
+                	<div class="cm-con">
+                	                        <ul>
+                                                    <li><span class="red">10840</span><a href="http://www.zhulang.com/388161/" target="_blank">麒麟神印</a></li>
+                                                    <li><span class="red">10800</span><a href="http://www.zhulang.com/393057/" target="_blank">凌天战神</a></li>
+                                                    <li><span class="red">10000</span><a href="http://www.zhulang.com/435732/" target="_blank">武道神偷</a></li>
+                                                    <li><span class="red">7556</span><a href="http://www.zhulang.com/326434/" target="_blank">风舞苍穹</a></li>
+                                                    <li><span class="red">5132</span><a href="http://www.zhulang.com/459574/" target="_blank">灵武元尊</a></li>
+                                                    <li><span class="red">4328</span><a href="http://www.zhulang.com/457367/" target="_blank">恒火圣界</a></li>
+                                                    <li><span class="red">3664</span><a href="http://www.zhulang.com/461594/" target="_blank">弑羽剑帝</a></li>
+                                                    <li><span class="red">3140</span><a href="http://www.zhulang.com/434683/" target="_blank">武神圣帝</a></li>
+                                                </ul>
+                        <div class="recommend-btn">
+                            <a href="http://www.zhulang.com/rank/reward/class/02/type/1.html" class="btn btn-reward" target="_blank">查看更多</a>
+                        </div>
+                                        </div>
+                    
+                    <div class="cm-con" style="display:none">
+                    	<ul>loading</ul>
+                        <div class="recommend-btn">
+                        	<a href="http://www.zhulang.com/rank/reward/class/02/type/2.html" class="btn btn-reward" target="_blank">查看更多</a>
+                        </div>
+                    </div>
+                    <div class="cm-con"  style="display:none">
+                    	<ul>loading</ul>
+                        <div class="recommend-btn">
+                        	<a href="http://www.zhulang.com/rank/reward/class/02/type/3.html" class="btn btn-reward" target="_blank">查看更多</a>
+                        </div>
+                    </div>
+                    
+                    <!--end recommend-btn-->
+                </div><!--end ecommend-list-->
+            </div><!--end bdrbox-->
+        </div><!--end w-222-->
+    </div><!--end mian-row-->
+</div>
+<script>
+	require(['zlang.category'], function(Category){
+        Category.init();
+    });
+</script>
+<!--end of .main-->
+<div class="footer"><div class="main">
+	<div  class="inner-link"> <a href="http://www.zhulang.com/help/about.html" target="_blank">关于逐浪</a>　|　<a href="https://writer.zhulang.com/index/index.html" target="_blank">作者投稿</a>　|　<a href="http://www.zhulang.com/help/zhinan.html" target="_blank">用户指南</a>　|　<a href="http://www.zhulang.com/help/service.html" target="_blank">服务条款</a>　|　<a href="http://www.zhulang.com/help/copyright.html" target="_blank">版权声明</a>　|　<a href="http://www.zhulang.com/help/map.html" target="_blank">网站地图</a>　|　<a href="http://www.zhulang.com/help/job.html" target="_blank">招聘信息</a>　|　<a href="http://www.zhulang.com/help/contact.html" target="_blank">联系我们</a> </div>
+	<div class="copyrights">Copyright &copy; <script>document.write((new Date).getFullYear())</script> zhulang.com, All Rights Reserved. <a target="_blank" href="http://www.zhulang.com">逐浪网</a>版权所有 未经书面许可不得复制转载。<br/>增值电信业务经营许可证苏B2-20130019 <a target="_blank" href="http://www.miibeian.gov.cn/publish/query/indexFirst.action">苏ICP备12028084号</a> <a href="http://sq.ccm.gov.cn/ccnt/sczr/service/business/emark/toDetail/82EE5D7E12564ABB935A02DE3D2E259B" target="_blank">苏网文[2016]5224-123号</a> 新出网证（苏）字0027号</div>
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?c4d45d45e1a473a3e43c8699766169ee";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></div>
+
+</body>
+</html>
