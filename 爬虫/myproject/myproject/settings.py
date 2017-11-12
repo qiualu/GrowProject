@@ -64,9 +64,10 @@ DEFAULT_REQUEST_HEADERS = {
 # Enable or disable downloader middlewares
 # 启用或禁用下装程序中间件
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'myproject.middlewares.MyCustomDownloaderMiddleware': 543,
-#}
+# DOWNLOADER_MIDDLEWARES = {
+#    'myproject.middlewares.MyCustomDownloaderMiddleware': 543,  #键为中间件类的路径，值为中间件的顺序
+#    'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware':None, #禁止内置的中间件
+# }
 
 # Enable or disable extensions
 # 启用或禁用扩展
