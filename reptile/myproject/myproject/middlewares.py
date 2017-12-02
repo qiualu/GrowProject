@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
 # Define here the models for your spider middleware
-#
+# 在这里定义您的蜘蛛中间件的模型
 # See documentation in:
+# 看     文档
 # http://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
