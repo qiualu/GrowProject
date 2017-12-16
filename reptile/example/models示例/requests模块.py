@@ -30,6 +30,72 @@ def xpath_use():
     print(baidu)
 
 
+headers_base1 = {
+'accept':'image/webp,image/apng,image/*,*/*;q=0.8',
+'accept-encoding':'gzip, deflate, br',
+'accept-language':'zh-CN,zh;q=0.8',
+'cookie':'__cfduid=d61b4eadad49f6a9c4ab761f5d48057381509074103',
+# 'referer':'http://www.django-rest-framework.org/',
+'user-agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+}
+
+# 1、requests 模块爬取静态页面-----------------------------------------------------------------------------------------
+# 发送请求，接受响应
+# response = requests.get("https://www.douyu.com/directory/all", headers=headers_base1)
+# print(response.text)  # html文本
+# 2、requsets 模块get方式爬取ajax动态页面------------------------------------------------------------------------------
+# # 通过 fiddler 获取 ajax 动态发送的请求 url
+# # 并发现每页 url 变化规则，循环形成新的 url
+# ajax_url = 'https://www.douyu.com/directory/all?page=' + str(index) + '&isAjax=1'
+# # 向 ajax url 提交请求，获得响应
+# response = requests.get(ajax_url, headers=headers_base)
+# 3、requsets 模块post方式爬取ajax动态页面------------------------------------------------------------------------------
+# 生成 session 对象
+# sess = requests.session()
+# # 表单内容
+# form_data = {
+#     'from':'http://so.gushiwen.org/user/collect.aspx',
+#     'denglu':'登录',
+#     'from':'http://so.gushiwen.org/user/collect.aspx',
+#     '__VIEWSTATE':'H2dbNnLxIFAytzlqfQc1JTJLadgzdNdE7uOdVx4nPkPZ28kzi2R4Ewgzo/2enNmQ0uYSlQ6Bvv3bG8Z3gegDwkmqSMe+xzaJY8W27FJMwijwYgk4T0tHJFsR4KE=',
+#     'code': code,
+#     '__VIEWSTATEGENERATOR':'C93BE1AE',
+#     'pwd':'123456',
+#     'email':'1090509990@qq.com',
+# }
+# # 提交表单登陆
+# url = 'http://so.gushiwen.org/user/login.aspx?from=http%3a%2f%2fso.gushiwen.org%2fuser%2fcollect.aspx'
+# response = sess.post(url,
+#           headers=headers_2,
+#           data=form_data)
+# 4、requsets 模块实现通过代理爬取网页----------------------------------------------------------------------------------
+# # https ip 集合
+# import random
+# https_ip = [
+# '180.173.70.40:9797',
+# '183.15.27.168:9999',
+# ]
+#
+# # http ip 集合
+# http_ip = [
+# '125.46.0.62:53281',
+# '118.119.168.172:9999',
+# ]
+#
+# # 从集合中随机选择代理ip进行设置
+# proxy_ip = {
+# 'https':random.choice(https_ip),
+# 'http':random.choice(http_ip),
+# }
+#
+# print(proxy_ip)
+#
+# # 使用代理 ip 发送请求
+# response = requests.get('http://ip.filefab.com/index.php',
+#                         proxies = proxy_ip)
+
+
+
 if __name__ == '__main__':
     # main()
     xpath_use()

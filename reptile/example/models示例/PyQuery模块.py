@@ -1,14 +1,14 @@
 from pyquery import PyQuery as pq
 
 def main():
-
+    # ------------------------------------------------------
     # 初始化方式
     # d=pq("<html><title>hello</title></html>")
     # d=pq(filename=path_to_html_file)
     # d=pq(url='http://www.baidu.com')  #注意：此处url似乎必须写全
 
     # doc = pq('http://www.youdao.com')
-
+    # ------------------------------------------------------
     # print(doc('title')) # 获取 title 标签的源码
     # print(doc('title').text()) # 获取 title 标签的内容
     # print(doc('#margin3')) # 获取 id 为 margin3 的标签的内容
@@ -23,19 +23,19 @@ def main():
     # for a_href in a_href:
     #     print(pq(a_href).text())
 
-
+    # ------------------------------------------------------
     #2. html()和text() ——获取相应的HTML块或文本块# ***********************************************
     # print(doc('head').html())    # 返回<head>.之间.</head>
     # print(doc('head'))        #返回原码
     # print(doc('head').text())    #返回内容
 
-
+    # ------------------------------------------------------
     #3.  根据HTML标签来获取元素
     # d=pq('<div><p>test 1</p><p>test 2</p></div>')
     # d('p')  #返回[<p>,<p>]
     # print(d('p'))   #返回<p>test 1</p><p>test 2</p>
     # print(d('p').html())    #返回test 1
-
+    # ------------------------------------------------------
     #4..eq(index) ——根据给定的索引号得到指定元素        # *************************  eq(index)
     # print(d('p').eq(1).html()) #返回test 2
 
@@ -53,7 +53,7 @@ def main():
     # d=pq("<div><p id='a'>test 1</p><p class='a'>test 2</p></div>")
     # print(d('#a').html()) #返回test 1
     # print(d('.a').html()) #返回test 2
-
+    # ------------------------------------------------------
     # 8.获取属性值，例：                       #******************** attr('href')
     # d=pq("<p id='my_id'><a href='http://hello.com'>hello</a></p>")
     # print(d('a').attr('href'))  #返回http://hello.com

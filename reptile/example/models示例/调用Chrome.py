@@ -16,7 +16,19 @@ def main():
     print(browser.title)
 
     time.sleep(5)
-    browser.quit()
+    browser.quit()  #关闭
+
+'''
+driver = webdriver.Chrome()  # 打开浏览器
+# driver = webdriver.Firefox()
+# driver = webdriver.PhantomJS('D:\program\Python\phantomjs.exe') # 无界面浏览器
+
+driver.get("https://www.baidu.com/")  # 打开网址
+time.sleep(5)
+print( driver.title )  # 打印标题
+kw = driver.find_element_by_id('kw')  # 获得id 对象
+kw.send_keys("十九大")  # 输入 id 对象
+'''
 
 if __name__ == '__main__':
     main()
